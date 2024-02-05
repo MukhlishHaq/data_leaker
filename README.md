@@ -1,4 +1,4 @@
- <h1>EDA</h1>
+ <h1>Stage-1</h1>
  <p>1. Mayoritas customer yang churn adalah customer dengan estimasi gaji rendah (<60k) Rekomendasi:<br>
 a. Fokus ke retention program untuk customer berpenghasilan rendah, misal penawaran diskon atau cashback untuk produk tabungan.</p>
 b. Tingkatkan financial literacy customer kelas menengah bawah agar lebih loyal.</p>
@@ -10,3 +10,35 @@ b. Tingkatkan financial literacy customer kelas menengah bawah agar lebih loyal.
 7. Geografi: Meskipun Prancis memiliki jumlah pelanggan yang paling banyak, presentase pelanggan yang churn cenderung lebih rendah dibandingkan dengan Spanyol dan Jerman. Ini menunjukkan bahwa mungkin ada faktor regional yang mempengaruhi keputusan pelanggan untuk bertahan atau churn.</p>
 8. Berdasarkan Heatmap Variabel Age dan Balance berkorelasi Positif dengan Variabel Exited</p>
 9. Hasil dari Regresi Linear variabel Age memiliki pengaruh sebesar 0.01 terhadap kemungkinan churn sedangkan untuk variabel Balance memiliki pengaruh sebesar 0.0000007 terhadap kemungkinan churn</p>
+
+ <h1>Stage-2</h1>
+
+# Panduan Proses Preprocessing Data
+
+Pada tahap preprocessing data, langkah-langkah berikut telah dilakukan:
+
+1. **Penanganan Nilai yang Hilang, Duplikat, dan Outlier:**
+
+    - Tidak ditemukan nilai yang hilang atau duplikat dalam data.
+    - Outlier ditangani menggunakan metode Z-Score atau IQR.
+
+2. **Normalisasi dan Standarisasi Data:**
+
+    - Variabel numerik dinormalisasi dan distandarisasi untuk persiapan analisis lebih lanjut.
+    - Normalisasi dipilih untuk pemrosesan masa depan.
+
+3. **Pengkodean Fitur:**
+
+    - Data kategori diubah menjadi bentuk numerik menggunakan One Hot Encoding.
+
+4. **Penanganan Ketidakseimbangan Kelas:**
+
+    - Ketidakseimbangan kelas diatasi dengan oversampling untuk menyeimbangkan distribusi antara pelanggan yang berpindah dan yang tetap.
+
+5. **Pemilihan dan Ekstraksi Fitur:**
+    - Pemilihan dan ekstraksi fitur dilakukan untuk menyempurnakan dataset untuk pemodelan.
+    - Fitur tambahan seperti interaksi antara usia dan jumlah produk, rasio saldo terhadap gaji yang diestimasi, lama pelanggan, dan frekuensi transaksi direkomendasikan untuk meningkatkan analisis.
+
+## Kesimpulan
+
+Kesimpulan ini menyoroti pendekatan yang komprehensif dalam menyiapkan dataset untuk analisis yang mendalam, memastikan akurasi dalam tahap pemodelan dan analisis selanjutnya.
