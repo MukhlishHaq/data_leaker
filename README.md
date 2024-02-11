@@ -74,3 +74,11 @@ Pada tahap preprocessing data, langkah-langkah berikut telah dilakukan:
 ## Kesimpulan
 
 Kesimpulan ini menyoroti pendekatan yang komprehensif dalam menyiapkan dataset untuk analisis yang mendalam, memastikan akurasi dalam tahap pemodelan dan analisis selanjutnya.
+
+<h1>Stage-3</h1>
+<h2>Model Evaluation</h2>
+ <p> - Faktor kunci yang secara signifikan mempengaruhi penonaktifan fasilitas perbankan nasabah yaitu geography, numofproduct, isactivemember, gender, creditscore, tenure.<br>
+- Akurasi skor: Kedua model mencapai skor akurasi tinggi mendekati 71% pada data training, yang menunjukkan kesesuaian yang baik dengan data training. Selain itu, skor akurasi model yang mendekati 70% pada data testing menunjukkan kemampuannya untuk menggeneralisasi dengan baik pada kejadian yang tidak terlihat.</p>
+- Precision, F1 Score, Recall: Model ini mencapai F1 Score, recall, dan precision yang tinggi, semuanya sekitar 0,7. Hal ini menunjukkan bahwa model tersebut memiliki kemampuan yang kuat untuk mengidentifikasi kasus positif dengan benar sekaligus meminimalkan positif palsu dan memaksimalkan positif sebenarnya.</p>
+- Nilai AUC yang tinggi lebih dari 0,78 menyatakan bahwa model menunjukkan kekuatan diskriminatif yang cukup baik. Hal ini menunjukkan bahwa model tersebut mampu membedakan antara kejadian positif dan negatif dengan tingkat akurasi yang relatif tinggi.</p>
+- Kinerja Model Secara Keseluruhan: Model menunjukkan kinerja yang kuat di berbagai metrik evaluasi, yang menunjukkan efektivitasnya dalam membuat prediksi yang akurat dan memperoleh hasil yang diinginkan.</p>
